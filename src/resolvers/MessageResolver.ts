@@ -25,7 +25,7 @@ export class MessageResolver {
     @Authorized()
     public newMessages(
         @Root() payload: Message,
-        @Arg('roomId', () => Int) roomId: number
+        @Arg('roomId', () => Int) roomId: number 
     ): Message {
         return payload;
     }
