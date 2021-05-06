@@ -1,4 +1,4 @@
-import 'reflect-metadata';
+import 'reflect-metadata'; 
 import { AuthChecker, buildSchema } from "type-graphql";
 import { UserResolver } from "./resolvers/UserResolver";
 import { getModelForClass, mongoose } from '@typegoose/typegoose';
